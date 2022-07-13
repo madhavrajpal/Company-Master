@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>COMPANY MASTER</title>
+</head>
+
+<body>
+    <center>
+        <h1 style="font-family: Lexend Deca;margin-top: 20px;font-weight: bold;">Company Master</h1>
+    </center>
+    <div class="accordion" id="accordionExample">
+        <div class="card" id="company">
+            <div class="card-header" id="headingTwo" style="background-color: rgb(237, 237, 237);">
+                <h2>
+                    <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo"
+                        style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;">
+                        Company Details <i class="fas fa-angle-down"></i>
+                    </a>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <form>
+                        <div class="input-container">
+                            <input type="text" id="code" class="text-input" autocomplete="off"
+                                placeholder="Enter the Company Code" required />
+                            <label class="label" for="code">Company Code</label>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <input type="text" id="name" class="text-input" autocomplete="off"
+                                placeholder="Enter the Company name" required />
+                            <label class="label" for="name">Company Name</label>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <textarea id="Address" class="text-input" autocomplete="off" placeholder="Enter Address"
+                                required></textarea>
+                            <label class="label" for="Address">Address</label>
+                        </div>
+                        <br>
+                        <div class="row justify-content-left">
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="city" class="text-input" autocomplete="off"
+                                        placeholder="Enter the City" required />
+                                    <label class="label" for="city">City</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="pin" class="text-input" autocomplete="off"
+                                        placeholder="Enter the Pincode" required />
+                                    <label class="label" for="pin">Pincode</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row justify-content-left">
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="state" class="text-input" autocomplete="off"
+                                        placeholder="Enter the state" required />
+                                    <label class="label" for="state">State</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="country" class="text-input" autocomplete="off"
+                                        placeholder="Enter the Country" required />
+                                    <label class="label" for="country">Country</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row justify-content-left">
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="tel1" class="text-input" autocomplete="off"
+                                        placeholder="Enter first Tel No." required />
+                                    <label class="label" for="tel1">Tel No 1</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="tel2" class="text-input" autocomplete="off"
+                                        placeholder="Enter second Tel No." required />
+                                    <label class="label" for="tel2">Tel No 2</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row justify-content-left">
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="mob" class="text-input" autocomplete="off"
+                                        placeholder="Enter Mobile No." required />
+                                    <label class="label" for="mob">Mobile</label>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col">
+                                <div class="input-container">
+                                    <input type="text" id="Fax" class="text-input" autocomplete="off"
+                                        placeholder="Enter Fax No." required />
+                                    <label class="label" for="Fax">Fax</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <input type="text" id="mail" class="text-input" autocomplete="off"
+                                placeholder="Enter Email Id" required />
+                            <label class="label" for="mail">Email</label>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <input type="text" id="web" class="text-input" autocomplete="off"
+                                placeholder="Enter the Website" required />
+                            <label class="label" for="web">Website</label>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <input type="text" id="Currency" class="text-input" autocomplete="off"
+                                placeholder="Enter the Currency" required />
+                            <label class="label" for="Currency">Currency</label>
+                        </div>
+                        <br>
+                </div>
+
+                <center>
+                    <a type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo" style="font-family: Lexend Deca;">Show less</a>
+                </center>
+            </div>
+        </div>
+        <div class="card" id="company">
+            <div class="card-header" id="headingTwo" style="background-color: rgb(237, 237, 237);">
+                <h2>
+                    <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2"
+                        aria-expanded="false" aria-controls="collapseTwo"
+                        style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;">
+                        Alert Settings <i class="fas fa-angle-down"></i>
+                    </a>
+                </h2>
+            </div>
+            <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p style="font-size:17px; font-family: Lexend Deca;">Number of days prior to expiry before reminder
+                        pops up <input type="text" class="text-input2"></p>
+                    <br>
+                    <p style="font-size:17px; font-family: Lexend Deca;">Number of days prior to expiry before reminder
+                        pops up for AMC <input type="text" class="text-input2"></p>
+                    <br>
+                    <p style="font-size:17px; font-family: Lexend Deca;">Number of days prior to expiry before reminder
+                        pops up for Insurance <input type="text" class="text-input2"></p>
+                </div>
+                <center>
+                    <a type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
+                        aria-controls="collapse2" style="font-family: Lexend Deca;">Show less</a>
+                </center>
+            </div>
+        </div>
+        <div class="card" id="company">
+            <div class="card-header" id="headingTwo" style="background-color: rgb(237, 237, 237);">
+                <h2>
+                    <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3"
+                        aria-expanded="false" aria-controls="collapse3"
+                        style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;">
+                        Depriciation Calculation <i class="fas fa-angle-down"></i>
+                    </a>
+                </h2>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div id="company">
+                        <div>
+
+                            <form>
+                                <input name="depcal" class="btn btn-link collapsed" type="radio" data-toggle="collapse"
+                                    data-target="#collapse31" aria-expanded="false" aria-controls="collapse31"
+                                    style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large">
+                                <font style="font-size: 20px;">Day</font>
+
+
+                        </div>
+                        <div id="collapse31" class="collapse" aria-labelledby="headingTwo" data-parent="#collapse3">
+                            <div class="card-body">
+                                <div style="display: inline-block;">
+                                    <b>Exclude Purchase(Day)</b>
+                                    <input type="radio" name="daily1" style="margin: 10px;">Yes
+                                    <input type="radio" name="daily1" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                    <b>Exclude Discard(Day)</b>
+                                    <input type="radio" name="daily2" style="margin: 10px;">Yes
+                                    <input type="radio" name="daily2" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+
+                                </div>
+                                <div style="display: inline-block;">
+                                    <b>Exclude Lease(Day)</b>
+                                    <input type="radio" name="daily3" style="margin: 10px;">Yes
+                                    <input type="radio" name="daily3" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                    <b>Exclude Sale(Day)</b>
+                                    <input type="radio" name="daily4" style="margin: 10px;">Yes
+                                    <input type="radio" name="daily4" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+
+                                </div>
+                                <div style="display: inline-block;">
+                                    <b>Exclude Split(Day)</b>
+                                    <input type="radio" name="daily5" style="margin: 10px;">Yes
+                                    <input type="radio" name="daily5" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="company">
+                        <div>
+
+                            <input name="depcal" class="btn btn-link collapsed" type="radio" data-toggle="collapse"
+                                data-target="#collapse32" aria-expanded="false" aria-controls="collapse32"
+                                style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large">
+                            <font style="font-size: 20px;">Month</font>
+                            </form>
+
+                        </div>
+                        <div id="collapse32" class="collapse" aria-labelledby="headingTwo" data-parent="#collapse3">
+                            <div class="card-body">
+                                <div style="display: inline-block;">
+                                    <b>Exclude Purchase(Month)</b>
+                                    <input type="radio" name="m1" style="margin: 10px;">Yes
+                                    <input type="radio" name="m1" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                    <b>Exclude Discard(Month)</b>
+                                    <input type="radio" name="m2" style="margin: 10px;">Yes
+                                    <input type="radio" name="m2" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+
+                                </div>
+                                <div style="display: inline-block;">
+                                    <b>Exclude Lease(Month)</b>
+                                    <input type="radio" name="m3" style="margin: 10px;">Yes
+                                    <input type="radio" name="m3" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                    <b>Exclude Sale(Month)</b>
+                                    <input type="radio" name="m4" style="margin: 10px;">Yes
+                                    <input type="radio" name="m4" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+
+                                </div>
+                                <div style="display: inline-block;">
+                                    <b>Exclude Split(Month)</b>
+                                    <input type="radio" name="m5" style="margin: 10px;">Yes
+                                    <input type="radio" name="m5" style="margin: 10px;">
+                                    <font style="margin-right: 30px;">No</font>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <a type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                        aria-controls="collapse3" style="font-family: Lexend Deca;">Show less</a>
+                </center>
+            </div>
+        </div>
+        <div class="card" id="company">
+            <div class="card-header" id="headingTwo"
+                style="background-color: rgb(237, 237, 237);box-shadow: 0px 3px 4px rgb(127, 76, 203,0.7);">
+                <h2>
+                    <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5"
+                        aria-expanded="false" aria-controls="collapse5"
+                        style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;">
+                        Additional Settings <i class="fas fa-angle-down"></i>
+                    </a>
+                </h2>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <b style="margin: 10px;">Consider sub-period opening balance for depreciation calculation</b>
+                    <input type="radio" name="0" style="margin: 10px;">Yes
+                    <input type="radio" name="0" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Depreciation Round Off</b>
+                    <input type="radio" name="1" style="margin: 10px;">Yes
+                    <input type="radio" name="1" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Calculate Depreciation for sold/discard assets</b>
+                    <input type="radio" name="2" style="margin: 10px;">Yes
+                    <input type="radio" name="2" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Recover depreciation at the time of sale/discard</b>
+                    <input type="radio" name="3" style="margin: 10px;">Yes
+                    <input type="radio" name="3" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Asset-wise Details for IT Book Depreciation</b>
+                    <input type="radio" name="4" style="margin: 10px;">Yes
+                    <input type="radio" name="4" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Treat Leap Year as 365 days</b>
+                    <input type="radio" name="5" style="margin: 10px;">Yes
+                    <input type="radio" name="5" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Save actual used days</b>
+                    <input type="radio" name="6" style="margin: 10px;">Yes
+                    <input type="radio" name="6" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Automatic Asset Code</b>
+                    <input type="radio" name="7" style="margin: 10px;">Yes
+                    <input type="radio" name="7" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Is Seasonal Factory or Concern</b>
+                    <input type="radio" name="8" style="margin: 10px;">Yes
+                    <input type="radio" name="8" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">50% of additional depreciation in IT Book charge in next year</b>
+                    <input type="radio" name="9" style="margin: 10px;">Yes
+                    <input type="radio" name="9" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Transfer To General Reserve</b>
+                    <input type="radio" name="10" style="margin: 10px;">Write off
+                    <input type="radio" name="10" style="margin: 10px;">Adjust dep
+                    <br>
+                    <b style="margin: 10px;">Transfer From General Reserve</b>
+                    <input type="radio" name="11" style="margin: 10px;">Adjust value
+                    <input type="radio" name="11" style="margin: 10px;">Adjust dep
+                    <br>
+                    <b style="margin: 10px;">Recalculate Depreciable Amt in case of SLM - Expiry</b>
+                    <input type="radio" name="12" style="margin: 10px;">Yes
+                    <input type="radio" name="12" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Residual value Round Off</b>
+                    <input type="radio" name="13" style="margin: 10px;">Yes
+                    <input type="radio" name="13" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Consider Accr. Depreciation on Lease</b>
+                    <input type="radio" name="14" style="margin: 10px;">Yes
+                    <input type="radio" name="14" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">If asset expiry during period then use balance No. of days Method</b>
+                    <input type="radio" name="15" style="margin: 10px;">Yes
+                    <input type="radio" name="15" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Generate Auto Asset code based on parent if dependent</b>
+                    <input type="radio" name="16" style="margin: 10px;">Yes
+                    <input type="radio" name="16" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Match Asset cost breakup with total asset cost</b>
+                    <input type="radio" name="17" style="margin: 10px;">Yes
+                    <input type="radio" name="17" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">Do not load assets on page load.</b>
+                    <input type="radio" name="18" style="margin: 10px;">Yes
+                    <input type="radio" name="18" style="margin: 10px;">No
+                    <br>
+                    <b style="margin: 10px;">SLM expiry depreciation calculation</b><br>
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate on cost-residual value
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate after cost and then save
+                    residual value at end
+                    <br>
+                    <b style="margin: 10px;">WDV expiry depreciation calculation</b><br>
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate on cost-residual value
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate after cost and then save
+                    residual value at end
+                    <br>
+                    <b style="margin: 10px;">DDBM expiry depreciation calculation</b><br>
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate on cost-residual value
+                    <input type="radio" name="0" style="margin: 10px;">Depreciation rate after cost and then save
+                    residual value at end
+                </div>
+                <center>
+                    <a type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
+                        aria-controls="collapse5" style="font-family: Lexend Deca;">Show less</a>
+                </center>
+            </div>
+        </div>
+        <br>
+        <div class="prefsuff">
+            <p style="font-size:17px; font-family: Lexend Deca;">Start numbering from<input type="text"
+                    class="text-input2"></p>
+            <br>
+            <div class="row justify-content-left">
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" id="Prefix" class="text-input" autocomplete="off" placeholder="Prefix"
+                            required list="prefsuff" />
+                        <label class="label" for="Prefix">Prefix</label>
+                        <datalist id="prefsuff">
+                            <option value="[BLOCK_CODE]">[BLOCK_CODE]</option>
+                            <option value="[CATEGORY_CODE]">[CATEGORY_CODE]</option>
+                            <option value="[SUBCATEGORY_CODE]">[SUBCATEGORY_CODE]</option>
+                            <option value="[LOCATION_CODE]">[LOCATION_CODE]</option>
+                            <option value="[COSTCENTER_CODE]">[COSTCENTER_CODE]</option>
+                            <option value="[CUSTODIAN_CODE]">[CUSTODIAN_CODE]</option>
+                            <option value="[DEPARTMENT_CODE]">[DEPARTMENT_CODE]</option>
+                            <option value="[GROUP_CODE]">[GROUP_CODE]</option>
+                            <option value="[PURCHASEDATE_ddmmyyyy]">[PURCHASEDATE_ddmmyyyy]</option>
+                            <option value="[PURCHASEDATE_ddMMMyyyy]">[PURCHASEDATE_ddMMMyyyy]</option>
+                            <option value="[PURCHASEDATE_DAY]">[PURCHASEDATE_DAY]</option>
+                            <option value="[PURCHASEDATE_MONTH]">[PURCHASEDATE_MONTH]</option>
+                            <option value="[PURCHASEDATE_MONTHNAME]">[PURCHASEDATE_MONTHNAME]</option>
+                            <option value="[PURCHASEDATE_YEAR]">[PURCHASEDATE_YEAR]</option>
+                            <option value="[PURCHASEDATE_YEAR2DIGIT]">[PURCHASEDATE_YEAR2DIGIT]</option>
+                            <option value="[USEDATE_DAY]">[USEDATE_DAY]</option>
+                            <option value="[USEDATE_MONTH]">[USEDATE_MONTH]</option>
+                            <option value="[USEDATE_YEAR]">[USEDATE_YEAR]</option>
+                            <option value="[USEDATE_ddmmyyyy]">[USEDATE_ddmmyyyy]</option>
+                            <option value="[USEDATE_ddMMMyyyy]">[USEDATE_ddMMMyyyy]</option>
+                            <option value="[USEDATE_YEAR2DIGIT]">[USEDATE_YEAR2DIGIT]</option>
+                            <option value="[USEDATE_MONTHNAME]">[USEDATE_MONTHNAME]</option>
+                            <option value="[PURCHASE_FY_YYYY]">[PURCHASE_FY_YYYY]</option>
+                            <option value="[PURCHASE_FY_YY]">[PURCHASE_FY_YY]</option>
+                        </datalist>
+                    </div>
+                </div>
+                <br>
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" id="Suffix" class="text-input" autocomplete="off"
+                            placeholder="Enter the Suffix" required list="prefsuff" />
+                        <label class="label" for="Suffix">Suffix</label>
+                        <datalist id="prefsuff">
+                            <option value="[BLOCK_CODE]">[BLOCK_CODE]</option>
+                            <option value="[CATEGORY_CODE]">[CATEGORY_CODE]</option>
+                            <option value="[SUBCATEGORY_CODE]">[SUBCATEGORY_CODE]</option>
+                            <option value="[LOCATION_CODE]">[LOCATION_CODE]</option>
+                            <option value="[COSTCENTER_CODE]">[COSTCENTER_CODE]</option>
+                            <option value="[CUSTODIAN_CODE]">[CUSTODIAN_CODE]</option>
+                            <option value="[DEPARTMENT_CODE]">[DEPARTMENT_CODE]</option>
+                            <option value="[GROUP_CODE]">[GROUP_CODE]</option>
+                            <option value="[PURCHASEDATE_ddmmyyyy]">[PURCHASEDATE_ddmmyyyy]</option>
+                            <option value="[PURCHASEDATE_ddMMMyyyy]">[PURCHASEDATE_ddMMMyyyy]</option>
+                            <option value="[PURCHASEDATE_DAY]">[PURCHASEDATE_DAY]</option>
+                            <option value="[PURCHASEDATE_MONTH]">[PURCHASEDATE_MONTH]</option>
+                            <option value="[PURCHASEDATE_MONTHNAME]">[PURCHASEDATE_MONTHNAME]</option>
+                            <option value="[PURCHASEDATE_YEAR]">[PURCHASEDATE_YEAR]</option>
+                            <option value="[PURCHASEDATE_YEAR2DIGIT]">[PURCHASEDATE_YEAR2DIGIT]</option>
+                            <option value="[USEDATE_DAY]">[USEDATE_DAY]</option>
+                            <option value="[USEDATE_MONTH]">[USEDATE_MONTH]</option>
+                            <option value="[USEDATE_YEAR]">[USEDATE_YEAR]</option>
+                            <option value="[USEDATE_ddmmyyyy]">[USEDATE_ddmmyyyy]</option>
+                            <option value="[USEDATE_ddMMMyyyy]">[USEDATE_ddMMMyyyy]</option>
+                            <option value="[USEDATE_YEAR2DIGIT]">[USEDATE_YEAR2DIGIT]</option>
+                            <option value="[USEDATE_MONTHNAME]">[USEDATE_MONTHNAME]</option>
+                            <option value="[PURCHASE_FY_YYYY]">[PURCHASE_FY_YYYY]</option>
+                            <option value="[PURCHASE_FY_YY]">[PURCHASE_FY_YY]</option>
+                        </datalist>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-left">
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" id="width" class="text-input" autocomplete="off"
+                            placeholder="Enter the width" required />
+                        <label class="label" for="width">Width</label>
+                    </div>
+                </div>
+                <br>
+                <div class="col">
+                    <div class="input-container">
+                        <input type="text" id="prefill" class="text-input" autocomplete="off"
+                            placeholder="Pre fill with" required />
+                        <label class="label" for="prefill">Pre fill with</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <label for="workflow" style="font-family: Lexend Deca;margin-left: 20px;font-weight: bold;">Enable workflow
+            (Maker/Checker) </label>
+        <input type="checkbox" id="workflow" style="width: 15px;height: 15px;margin-left: 10px;" />
+        <br>
+        <label for="workflow" style="font-family: Lexend Deca;margin-left: 20px;font-weight: bold;">Enable
+            Currency</label>
+        <input type="checkbox" id="workflow" style="width: 15px;height: 15px;margin-left: 10px;" />
+        <br>
+        <br>
+    </div>
+    </div>
+    </div>
+
+    <label for="Normal" style="font-family: Lexend Deca;margin-left: 20px;font-weight: bold;font-size: 18px;">Login
+        with</label><br>
+    <input name="Normal" class="btn btn-link collapsed" type="radio" data-toggle="collapse" data-target="#"
+        aria-expanded="false" aria-controls="#"
+        style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;margin-left: 20px;">
+    <font style="font-size: 20px;">Normal</font>
+
+
+    </div>
+    <div id="company">
+        <div>
+
+            <input name="Normal" class="btn btn-link collapsed" type="radio" data-toggle="collapse"
+                data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"
+                style="font-family: Lexend Deca;text-decoration: none;color: black;font-size: large;margin-left: 10px;">
+            <font style="font-size: 20px;">Active Directory</font>
+            </form>
+
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <p style="font-size:17px; font-family: Lexend Deca;">Active Directory<input type="text"
+                        class="text-input2"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <label for="Logo" style="font-family: Lexend Deca;margin-left: 20px;font-weight: bold;font-size: 18px;">Company Logo</label>
+    <input type="file" name="logo">
+    <br>
+    <img src="#" alt="sample logo" style="margin-left: 20px;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+    <button class="update">Update</button>
+    <button class="update">Close</button>
+    </center>
+
+    </div>
+
+    <!--Scripts for Bootstrap CSS and icons -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/91d9f33c9a.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
